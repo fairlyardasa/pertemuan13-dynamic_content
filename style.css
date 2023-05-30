@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(font/aeoniktrial-regular-webfont.woff)
+  }
+@font-face {
+    font-family: Aeonik-Bold;
+    src: url(font/aeoniktrial-bold-webfont.woff);
+}
+@font-face {
+    font-family: Aeonik-iBold;
+    src: url(font/aeoniktrial-bolditalic-webfont.woff);
+}
+body{
+    width: 100%;
+    font-family: 'Aeonik';
+    overflow-x: hidden;
+}
+.masthead {
+    background-image:url(asset/section-1.jpg) ;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+}
+
+.color-overlay{
+    position: relative;
+    background-color: rgba(3, 37, 108, 0.4);
+    height: 100%;
+    width: 100%;
+
+}
+#maintittle{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+
+}
+
+.detailp{
+    text-align: left;
+    font-size: medium;
+
+}
+
+.section2{
+    background-image:url(asset/Section\ Two.png) ;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+.color-overlay2{
+    position: relative;
+    /* background-color: rgba(3, 37, 108, 0.4); */
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+
+}
+
+.color-overlay3{
+    position: relative;
+    /* background-color: rgba(3, 37, 108, 0.4); */
+    height: 100%;
+    width: 100%;
+}
+
+#tittle-box{
+    width: 50%;
+
+}
+.section3{
+    /* background-image:url(SectionThree.png) ; */
+    background-color: rgba(3, 37, 108, 1);
+    margin: 0;
+    height:fit-content;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    color: white ;
+}
+
+#btn-align{
+    border-color: black;
+    width: 60%;
+}
+
+#btn-kickstart{
+    border-color: black;
+    width: 60%;
+}
+
+#btn-amplify{
+    border-color: black;
+    width: 60%;
+}
+
+#btn-send{
+    border-color: black;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.section4{
+    position: relative;
+    background-color: white;
+    height: max-content ;
+    width: 100vw;
+    background-size: cover;
+    margin: 0;
+}
+
+.section5{
+    position: relative;
+    background-color: aliceblue;
+    height: max-content ;
+    width: 100vw;
+    background-size: cover;
+    margin: 0;
+
+}
+
+input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.tittle{
+    font-family: 'Aeonik-iBold';
+}
+
+.container1{
+    width: 100vw; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-color{
+    background-color: rgba(3, 37, 108, 1);
+    transition: all ease-in-out .3s;
+}
+
+.bg-transparent{
+    transition: all ease-in-out .3s;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
